@@ -15,7 +15,6 @@ public class Driver {
         for (int i = 0; i < 10; i++) {
             double change = (random.nextDouble() * 10.0) - 5.0;
             double newPrice = tesla.getPrice() + change;
-
             tesla.setPrice(newPrice);
 
             try {
