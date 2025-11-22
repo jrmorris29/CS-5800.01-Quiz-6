@@ -6,7 +6,7 @@ public class Driver {
 
     public static void main(String[] args) {
         Stock tesla = new Stock("TSLA", 220.00);
-        StockObserver traderDisplay = new StockObserver();
+        PriceTracker traderDisplay = new PriceTracker();
 
         tesla.addObserver(traderDisplay);
 
